@@ -27,7 +27,7 @@ function formData(event) {
 function createTable() {
   var row;
   for (var i = 0; i < data.length; i++) {
-    row = document.creatElement('tr');
+    row = document.createElement('tr');
     row.innerHTML = '<td>' + data[i].first + '</td>' +
       '<td>' + data[i].last + '</td>' +
       '<td>' + data[i].enrolled + '</td>' +
